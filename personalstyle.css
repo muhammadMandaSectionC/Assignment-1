@@ -1,0 +1,183 @@
+body {
+  background: rgb(47, 78, 119);
+  background: radial-gradient(
+    circle,
+    rgba(47, 78, 119, 1) 62%,
+    rgba(17, 44, 79, 1) 100%
+  );
+}
+/* home page */
+nav {
+  float: right;
+  font-family: "Viga", sans-serif;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+img {
+  max-width: 100%;
+}
+.nav_flex-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  flex-grow: 5;
+}
+.nav_item-right {
+  display: flex;
+  padding: 30px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.container_home {
+  display: flex;
+}
+
+.text_hleft {
+  flex: 1;
+  margin: 40px;
+  padding: 100px;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 23px;
+}
+
+.image_hright {
+  flex: 1;
+  padding: 40px;
+  justify-content: baseline;
+}
+.youtube-container {
+  display: flex;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: rgba(62, 85, 140, 1) 74%;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* page 2 */
+.youtube-intro {
+  display: flex;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
+  color: cadetblue;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.container_youtube {
+  display: flex;
+}
+
+.text_yleft {
+  flex: 1;
+  margin: 50px;
+  padding: 50px;
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+}
+
+.video_yright {
+  flex: 1;
+  justify-content: space-between;
+}
+
+/* third Page */
+.intro_favCar {
+  display: flex;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 50px;
+  color: cadetblue;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+}
+.container_cars {
+  display: flex;
+}
+
+.text_cleft {
+  flex: 1;
+  margin: 50px;
+  padding: 50px;
+  font-size: 23px;
+  font-family: "Poppins", sans-serif;
+}
+
+.image_cright {
+  flex: 1;
+  justify-content: space-between;
+}
+
+/* page 4 */
+
+.text_intro {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: rgb(167, 189, 190);
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid rgb(214, 214, 214);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+hr {
+  border-color: black;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  margin-top: 10%;
+}
